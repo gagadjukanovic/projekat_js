@@ -1,0 +1,215 @@
+* {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    color: #0f222d;
+    text-align: center;
+    margin: auto;
+}
+
+body {
+    max-width: 400px;
+    margin: auto;
+}
+
+img{
+    height: 220px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.main{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 400px;
+}
+
+input[type="text"]{
+  font-size: 18px;
+  width: 380px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  color:  #2f4f4f;
+  display: block;
+  outline: none;
+}
+
+button.submit {
+  margin: auto;
+  font-size: 18px;
+  height: 40px;
+  padding: 10px;
+  color: #ffd300;
+  background-color: rgb(90, 89, 89);
+  border: 1px solid rgb(90, 89, 89);
+  border-radius: 6px;
+  display: block;
+}
+
+button.submit:hover{
+  color: #48aaad; 
+  background-color: #48494b;
+  border: 1px solid #48494b;
+}
+
+button.submit:focus {
+  outline: none;
+}
+
+h2 {
+  text-align: left;
+  color: #48aaad;
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 2px solid #48aaad;
+  padding: 30px 0 10px;
+  margin: 0;
+}
+
+.tasksBoard{
+  width: 400px;
+  margin-top: 0;
+  padding: 0;
+  display: none;
+  text-align: left;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+li{
+  overflow: hidden;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid #48aaad;
+  font-size: 1.3em;
+  color: #2f4f4f;
+  text-align: left;
+}
+
+li > input[type="checkbox"] {
+  margin: 0;
+  position: relative;
+  height: 23px;
+  width: 23px;
+}
+
+li > label {
+  font-size: 18px;
+  padding: 0 0 0 10px;
+}
+
+.delete{
+  height: 23px;
+  width: 23px;
+  border: 2px solid  #ff6161;
+  border-radius: 50%;
+  color: #ff6161;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.delete:hover{
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+a{
+  float: right;
+  text-align: right;
+  color: #ff6161;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:hover{
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
